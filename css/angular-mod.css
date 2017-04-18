@@ -1,0 +1,53 @@
+.md-content input,.md-content textarea  {
+  background:black;
+  border:0px;
+  border-bottom:solid 1px rgba(220,220,220,0.20);
+  border-radius:0px;
+}
+.md-content input:focus,.md-content textarea:focus {
+  border-top:0px;
+  box-shadow:none;
+}
+.md-content textarea {
+  resize:none;
+}
+.md-content label{
+  position:absolute;
+  top:10px;
+  left:15px;
+  color:rgba(220,220,220,0.20);
+  -webkit-transition: top 0.3s, left 0.3s;
+  -ms-transition:top 0.3s;
+  -o-transition:top 0.3s;
+  -moz-transition:top 0.3s;
+  transition:top 0.3s;
+}
+.md-input-focused label, .md-input-has-value label {
+            
+}
+.md-input-has-value label{
+  color:rgba(63,81,181,0.7);
+  top:-17px;
+}
+.md-input-focused label {
+  color:rgb(63,81,181);
+  top:-17px;
+}
+
+.md-content .form-group {
+  position:relative;
+}
+
+.fb-heading {
+  background:rgba(200,200,200,0.2);
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.fb-heading h2 {
+  margin-bottom:0px;
+}
+.fb-comments {
+  background:white;
+  color:rgba(0,0,0,0.6);
+  border-bottom:solid rgba(0,0,0,0.6) 2px;
